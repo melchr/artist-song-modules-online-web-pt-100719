@@ -17,9 +17,9 @@ include Memorable::InstanceMethods
   #  @@songs.detect{|a| a.name == name}
   #end
 
-  #def self.all
-  #  @@songs
-  #end
+  def self.all
+    @@songs
+  end
 
  # def self.reset_all
   #  self.all.clear
